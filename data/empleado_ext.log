@@ -1,0 +1,319 @@
+
+
+ LOG file opened at 12/14/23 06:49:49
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/14/23 06:49:49
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/14/23 06:52:32
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/14/23 06:52:32
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/14/23 22:00:06
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/14/23 22:00:06
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:44:04
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:44:04
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:44:05
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:44:05
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:46:20
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:46:20
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:47:10
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:47:10
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:52:48
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:52:48
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:53:35
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:53:35
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 06:53:45
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 06:53:45
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/16/23 07:26:57
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/16/23 07:26:57
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
