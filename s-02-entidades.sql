@@ -35,14 +35,14 @@ CREATE TABLE empleado(
   apellido_materno varchar2(40) NOT NULL,
   curp varchar2(18) NOT NULL CONSTRAINT empleado_curp_uk UNIQUE,
   rfc varchar2(13) NOT NULL,
-  fecha_nacimiento AS (
-    to_date(
-      substr(curp, 5, 2) || '-' ||
-      substr(curp, 7, 2) || '-' ||
-      substr(curp, 9, 2),
-      'rr-mm-dd'
-    )
-  ),
+  fecha_nacimiento AS ( 
+      to_date(
+	      substr(rfc, 5, 2) || '-' ||
+	      substr(rfc, 7, 2) || '-' ||
+	      substr(rfc, 9, 2),
+	      'rr-mm-dd'
+      )
+    ),
   activo number(1,0) NOT NULL,
   tipo char(1) NOT NULL,
   foto blob,
@@ -51,7 +51,9 @@ CREATE TABLE empleado(
     REFERENCES puesto(puesto_id),
   CONSTRAINT empleado_activo_chk CHECK( activo IN (0, 1) ),
   CONSTRAINT empleado_tipo_chk CHECK( tipo IN ('B', 'H', 'E') ),
-  CONSTRAINT empleado_curp_chk CHECK(substr(curp, 1, 10) = substr(rfc, 1,10))
+  CONSTRAINT empleado_curp_rfc_chk CHECK(substr(curp, 1, 10) = substr(rfc, 1,10)),
+  CONSTRAINT empleado_curp_chk check( LENGTH(curp) = 18 ),
+  CONSTRAINT empleado_rfc_chk check( LENGTH(rfc) = 13 )
 );
 
 CREATE TABLE empleado_datos_biometricos(

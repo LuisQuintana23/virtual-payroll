@@ -11,8 +11,8 @@ organization external (
 	default directory data_dir
 	access parameters (
 		records delimited by newline
-		badfile data_dir:'empleado_ext_bad.log'
-		logfile data_dir:'empleado_ext.log'
+		badfile data_dir:'domains_ext_bad.log'
+		logfile data_dir:'domains_ext.log'
 		fields terminated by ','
 		lrtrim
 		missing field values are null
@@ -20,8 +20,6 @@ organization external (
 	location ('domains.csv')
 )
 reject limit unlimited;
-
-SELECT * FROM dominio_invalido_ext;
 
 
 

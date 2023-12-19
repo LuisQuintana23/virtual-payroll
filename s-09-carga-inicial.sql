@@ -304,8 +304,6 @@ VALUES(30, 'UNAM', 'Ingeniería en Computación', sysdate+30*12*2, 9.0);
 
 -- Historico Puesto Sueldo
 
-SELECT * FROM HISTORICO_PUESTO_SUELDO hps;
-SELECT * FROM PUESTO p;
 
 -- P1
 INSERT INTO HISTORICO_PUESTO_SUELDO hps(HISTORICO_PUESTO_SUELDO_ID, SUELDO_MENSUAL_BRUTO,
@@ -454,7 +452,61 @@ VALUES(
   310
 );
 
+-- Datos biometricos
+INSERT INTO EMPLEADO_DATOS_BIOMETRICOS
+VALUES(10, 
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob()
+);
 
+INSERT INTO EMPLEADO_DATOS_BIOMETRICOS
+VALUES(20, 
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob()
+);
 
+INSERT INTO EMPLEADO_DATOS_BIOMETRICOS
+VALUES(30, 
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob()
+);
+
+INSERT INTO EMPLEADO_DATOS_BIOMETRICOS
+VALUES(40, 
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob(),
+  empty_blob()
+);
 
 

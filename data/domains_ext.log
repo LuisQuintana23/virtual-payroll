@@ -1,0 +1,87 @@
+
+
+ LOG file opened at 12/18/23 22:25:25
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: domains_ext.log
+
+
+
+ LOG file opened at 12/18/23 22:25:25
+
+Bad File: domains_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/19/23 00:14:51
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: domains_ext.log
+
+
+
+ LOG file opened at 12/19/23 00:14:51
+
+Bad File: domains_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right
+
+
+ LOG file opened at 12/19/23 02:44:34
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: domains_ext.log
+
+
+
+ LOG file opened at 12/19/23 02:44:34
+
+Bad File: domains_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right

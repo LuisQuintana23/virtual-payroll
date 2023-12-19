@@ -25,10 +25,15 @@ begin
   when others THEN
   IF sqlcode = -20002 THEN 
     dbms_output.put_line('[✓] nomina - nomina y quincena ya existen'|| v_nomina_id);
-    dbms_output.put_line('[FINALIZADO] - Todo Bien');
+    dbms_output.put_line('[✓] - Todo Bien');
   ELSE 
-    dbms_output.put_line(' ERROR - código no esperado: '|| sqlcode);
+    dbms_output.put_line('[✗] - código no esperado: '|| sqlcode);
     raise;
   END IF;
 end;
 /
+show errors
+
+prompt Haciendo rollback para limpiar los datos de prueba
+
+ROLLBACK;

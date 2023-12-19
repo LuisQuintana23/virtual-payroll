@@ -317,3 +317,32 @@ Field Definitions for table DOMINIO_INVALIDO_EXT
     DOMINIO                         CHAR (400)
       Terminated by ","
       Trim whitespace from left and right
+
+
+ LOG file opened at 12/18/23 22:24:37
+
+Total Number of Files=1
+
+Data File: domains.csv
+
+Log File: empleado_ext.log
+
+
+
+ LOG file opened at 12/18/23 22:24:37
+
+Bad File: empleado_ext_bad.log
+
+Field Definitions for table DOMINIO_INVALIDO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DOMINIO_INVALIDO_EXT_ID         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DOMINIO                         CHAR (400)
+      Terminated by ","
+      Trim whitespace from left and right

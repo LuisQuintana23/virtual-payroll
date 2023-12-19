@@ -20,6 +20,6 @@ begin
 	(historico_empleado_puesto_id, puesto_id, empleado_id)
 	values(v_historico_id, v_puesto_id, v_empleado_id);
 end;
-
-
+/
+show errors
 

@@ -13,5 +13,5 @@ BEGIN
 	  raise_application_error(-20001,'Un empleado no puede trabajar antes de los 15 años');	
 	END IF;
 END;
-
+/
 

@@ -1,6 +1,6 @@
 --@Autor: Luis Ángel Quintana Mora
 --@Fecha creación: 30/11/2023
---@Descripción: Trigger insertar a historico puesto sueldo
+--@Descripción: Trigger para insertar a historico puesto sueldo
 
 create or replace trigger trg_historico_puesto_sueldo
 after insert or update of sueldo_mensual_bruto, vigencia_fecha_inicio,vigencia_fecha_fin on puesto
@@ -27,5 +27,5 @@ begin
 	values(v_historico_id, v_sueldo_mensual_bruto, v_vigencia_fecha_inicio,
 	  v_vigencia_fecha_fin, v_puesto_id);
 end;
-
+/
 

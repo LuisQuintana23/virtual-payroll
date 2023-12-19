@@ -19,7 +19,6 @@ CREATE OR REPLACE VIEW v_empleado_honorarios (
   JOIN CONTRATO c ON c.EMPLEADO_ID=eh.EMPLEADO_ID
 ;
 
-SELECT * FROM v_empleado_honorarios;
 
 CREATE OR REPLACE VIEW v_empleado_puesto(
   nombre, apellido_paterno, apellido_materno,
@@ -32,7 +31,6 @@ CREATE OR REPLACE VIEW v_empleado_puesto(
   JOIN puesto p ON e.puesto_id=p.puesto_id
 ;
 
-SELECT * FROM v_empleado_puesto;
 
 
 CREATE OR REPLACE VIEW v_empleado_base(
@@ -48,7 +46,6 @@ CREATE OR REPLACE VIEW v_empleado_base(
   JOIN NIVEL_EMPLEADO ne ON eb.NIVEL_EMPLEADO_ID=ne.NIVEL_EMPLEADO_ID
 ;
 
-SELECT * FROM v_empleado_base;
 
 
 CREATE OR REPLACE VIEW v_empleado_tipo(

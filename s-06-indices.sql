@@ -20,8 +20,8 @@ CREATE INDEX nivel_empleado_clave_ix
 -- consultar a un empleado por honorarios que este
 -- apunto de vencer su contrato para ver si se renueva
 
-CREATE INDEX contrato_fecha_fin_ifx
-  ON contrato(trunc(to_date(fecha_fin, 'dd-mm-yyyy') - sysdate));
+CREATE INDEX historico_puesto_sueldo_vigencia_fecha_inicio_ifx
+  ON historico_puesto_sueldo(EXTRACT(YEAR FROM vigencia_fecha_inicio));
  
 
  
